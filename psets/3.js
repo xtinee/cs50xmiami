@@ -9,4 +9,10 @@ http://math2.org/math/geometry/circles.htm
 - Calculate the area based on the radius, and output "The area is NN".
 */
 
-// write your solution here...
+var radius = 5;
+
+var circ =  (2 * radius * 3.14 );
+var area = (3.14 * (radius * radius));
+
+console.log("The circumference is " + circ);
+console.log("The area is " + area);

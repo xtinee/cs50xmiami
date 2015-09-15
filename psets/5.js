@@ -10,6 +10,19 @@ For example:
   DrEvil(1000000): 1000000 dollars (pinky)
 */
 
+drEvil(100);
+drEvil(1000000);
+
 function drEvil(amount) {
-  // write your solution here...
+  if (amount == 1000000)
+  {
+    console.log(amount + " dollars (pinky)");
+    return (amount + " dollars (pinky)");
+  }
+
+  else
+  {
+    console.log(amount + " dollars");
+    return amount + " dollars";
+  }
 }

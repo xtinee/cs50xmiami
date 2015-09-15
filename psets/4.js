@@ -11,3 +11,16 @@ http://www.mathsisfun.com/temperature-conversion.html
 */
 
 // write your solution here...
+
+var celsius = 0;
+
+var fahrenheit = ((celsius * 9)/5 + 32);
+
+console.log(celsius + " degrees C is " + fahrenheit + " degrees F." );
+
+fahrenheit = 32;
+
+celsius = ((fahrenheit - 32) * 5/9);
+
+console.log(fahrenheit + " degrees F is " + celsius + " degrees C." );
+
