@@ -10,3 +10,22 @@ Call that function for a few different scores and log the result to make sure it
 */
 
 // write your solution here...
+
+pluralize("cat", 4);
+pluralize("dog", 5);
+pluralize("rat", 6);
+pluralize("sheep", 2);
+pluralize("geese", 8);
+
+function pluralize(noun, number){
+
+    if(noun == "sheep" || noun == "geese"){
+        console.log(number + " " + noun);
+    }
+
+    else
+    {
+        console.log(number + " " + noun + "s");
+        return number + " " + noun + "s";
+    }
+}
