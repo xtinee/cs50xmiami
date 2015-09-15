@@ -10,3 +10,24 @@ and log the output to make sure it works (e.g. "The greater number of 5 and 10 i
 */
 
 // write your solution here...
+
+greaterNum (1,2);
+greaterNum (5,4);
+greaterNum (1,1);
+
+function greaterNum(x, y){
+
+    if(x > y){
+        console.log(x);
+        return x;
+    }
+
+    else if(y >x){
+        console.log(y);
+        return y;
+    }
+
+    else{
+        console.log("The numbers are equal.");
+    }
+}

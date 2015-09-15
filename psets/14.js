@@ -13,4 +13,14 @@ Create a function called fahrenheitToCelsius:
 - Convert it to celsius and output "NN°F is NN°C."
 */
 
-// write your solution here...
+celsiusToFahrenheit(0);
+fahrenheitToCelsius(32);
+
+
+function celsiusToFahrenheit(celsius){
+    console.log(celsius + " degrees C is " + ((celsius * 9)/5 + 32) + " degrees F." );
+}
+
+function fahrenheitToCelsius(fahrenheit){
+    console.log(fahrenheit + " degrees F is " + ((fahrenheit - 32) * 5/9) + " degrees C." );
+}

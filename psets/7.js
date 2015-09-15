@@ -11,6 +11,21 @@ For example:
 fixStart('babble'): 'ba**le'
 */
 
+fixStart('babble');
+
 function fixStart(s) {
-  // write your solution here...
+
+    console.log(s.charAt(0));
+    for(var i=1; i < s.length; i++)
+    {
+        if(s.charAt(i) == s.charAt(0))
+        {
+            console.log('*');
+        }
+
+        else
+        {
+            console.log(s.charAt(i));
+        }
+    }
 }
