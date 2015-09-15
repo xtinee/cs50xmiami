@@ -14,3 +14,14 @@ Create a function called calcArea:
 */
 
 // write your solution here...
+
+calcCircumfrence(5);
+calcArea(5);
+
+function calcCircumfrence(radius){
+    console.log("The circumference is " + (2 * radius * 3.14 ))
+}
+
+function calcArea(radius){
+    console.log("The area is " + ((radius*radius)*3.14));
+}

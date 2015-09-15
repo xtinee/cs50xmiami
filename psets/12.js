@@ -11,4 +11,11 @@ Write a function named calculateSupply that:
 - Bonus: Accept floating point values for amount per day, and round the result to a round number.
 */
 
-// write your solution here...
+var maxAge = 100;
+calculateSupply(28, 5);
+calculateSupply(29, 7);
+calculateSupply(30, 10);
+
+function calculateSupply(age, amountDay){
+    console.log("You will need " + ((maxAge - age)* amountDay) + " to last you to the ripe old age of " + maxAge +".");
+}

@@ -11,4 +11,11 @@ Write a function named calculateAge that:
 - Bonus: Figure out how to get the current year in JavaScript instead of passing it in.
 */
 
-// write your solution here...
+calculateAge(1987, 2015);
+calculateAge(1988, 2015);
+calculateAge(1989, 2015);
+
+function calculateAge(birthYear, currentYear){
+
+    console.log ("You are either " + (currentYear - birthYear - 1) + " or " + (currentYear - birthYear) + ".");
+}

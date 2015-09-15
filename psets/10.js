@@ -9,4 +9,10 @@ Write a function named tellFortune that:
 - Call that function 3 times with 3 different values for the arguments.
 */
 
-// write your solution here...
+tellFortune(0, 'Frank', 'Miami', 'dog mom');
+tellFortune(1, 'Charlie', 'Colorado', 'farmer');
+tellFortune(2, 'Jon', 'Washington, D.C.', 'lawyer');
+
+function tellFortune(children, partner, location, job) {
+     console.log("You will be a " + job + " in " + location + ", and married to " + partner + " with " + children + " children.");
+}
