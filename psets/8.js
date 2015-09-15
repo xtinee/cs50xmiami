@@ -16,6 +16,19 @@ For example:
 
 */
 
+verbing('go');
+verbing('swim');
+
 function verbing(word) {
-  // write your solution here...
+  if (word.length >= 3)
+  {
+    console.log(word + "ing");
+    return (word + "ing");
+  }
+
+  else
+  {
+    console.log(word);
+    return word;
+  }
 }
